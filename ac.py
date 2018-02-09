@@ -41,3 +41,4 @@ sess = tf.Session()
 File_Writer = tf.summary.FileWriter('graph', sess.graph)
 print(sess.run(tf.global_variables_initializer()))
 sess.close()
+#done
